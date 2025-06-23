@@ -1,6 +1,7 @@
 # Elvin Hillström Portfolio
 
-Welcome to my portfolio.
+Welcome to my portfolio!  
+Here you'll find a selection of both team-based and solo projects I've developed. While most of my work has been created in Unity, I also have experience working in Unreal Engine 5.
 
 # Projects
 
@@ -39,7 +40,7 @@ Welcome to my portfolio.
 **Duration:**  6 weeks  
 **Engine:**    Unreal Engine 5  
 **Genre:**     Tower defence, Shooter  
-**Team:**      Solo project(myself)
+**Team:**      Solo project
 
 ---
 
@@ -57,4 +58,4 @@ Welcome to my portfolio.
 **Duration:**  7 weeks  
 **Engine:**    Unity </br>
 **Genre:**     Adventure, Action   
-**Team:**      3 Programmer, 3 Artists
+**Team:**      3 Programmers, 3 Artists
