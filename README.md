@@ -9,11 +9,11 @@ Welcome to my portfolio.
 ![Ruin Screenshot](Images/ruin.jpg "Screenshot from Ruin")
 
 <div align="center">
-  <img src="Images/ruin2.jpg" width="50%" />
-  <img src="Images/ruin3.jpg" width="50%" />
+  <img src="Images/ruin2.jpg" width="45%" />
+  <img src="Images/ruin3.jpg" width="45%" />
   <br>
-  <img src="Images/ruin4.jpg" width="50%" />
-  <img src="Images/ruin5.jpg" width="50%" />
+  <img src="Images/ruin4.jpg" width="45%" />
+  <img src="Images/ruin5.jpg" width="45%" />
 </div>
 
 ---
