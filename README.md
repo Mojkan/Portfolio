@@ -43,7 +43,7 @@ Welcome to my portfolio.
 
 ---
 
-## Arrowhold
+## Chain Mail
 
 ![Chain Mail Screenshot](Images/chainmail.png "Screenshot Chain Mail")
 
@@ -55,6 +55,6 @@ Welcome to my portfolio.
 ---
 
 **Duration:**  7 weeks  
-**Engine:**    Unity
+**Engine:**    Unity </br>
 **Genre:**     Adventure, Action   
 **Team:**      3 Programmer, 3 Artists
