@@ -26,7 +26,7 @@ Here you'll find a selection of both team-based and solo projects I've developed
 
 ---
 
-## Arrowhold
+## [Arrowhold](./Arrowhold) ← More info!
 
 ![Arrowhold Screenshot](Images/arrowhold.jpg "Screenshot Arrowhold")
 
@@ -44,7 +44,7 @@ Here you'll find a selection of both team-based and solo projects I've developed
 
 ---
 
-## Chain Mail
+## [Chain Mail](./Chain Mail) ← More info!
 
 ![Chain Mail Screenshot](Images/chainmail.png "Screenshot Chain Mail")
 
