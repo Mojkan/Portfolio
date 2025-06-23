@@ -44,7 +44,7 @@ Here you'll find a selection of both team-based and solo projects I've developed
 
 ---
 
-## [Chain Mail](./Chain Mail) ← More info!
+## [Chain Mail](./Chain%20Mail) ← More info!
 
 ![Chain Mail Screenshot](Images/chainmail.png "Screenshot Chain Mail")
 
