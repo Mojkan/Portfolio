@@ -18,7 +18,9 @@ Welcome to my portfolio.
 
 ---
 
-**Duration:** 	8 weeks  
-**Engine:** 	Unity  
-**Genre:** 	Exploration, Puzzle  
-**Team:** 	3 Programmers, 4 Artists
+| **Attribute** | **Details**                |
+|---------------|----------------------------|
+| Duration      | 8 weeks                    |
+| Engine        | Unity                      |
+| Genre         | Exploration, Puzzle        |
+| Team          | 3 Programmers, 4 Artists   |
