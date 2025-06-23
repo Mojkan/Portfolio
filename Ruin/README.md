@@ -32,3 +32,11 @@ The camera can also handle tight corners where the camera comes close to the pla
 </div>
 
 ## The puzzle blocks
+The puzzle block of this game is physics based but only when the player don't interact with it. This ensures that the code has full control of the block when the player is moving it but it can also be dropped from various heights and have normal physics.
+
+The block can be moved anywhere in the room but it will always be align with rooms walls ensuring it doesn't get any weird rotations that can be annoying for the player, even when it gets pushed down a ledge.
+
+<div align="center">
+  <img src="Images/ruinblock1.gif" width="45%" />
+  <img src="Images/ruinblock2.gif" width="45%" />
+</div>
