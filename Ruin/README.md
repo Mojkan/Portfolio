@@ -45,6 +45,6 @@ The block can be moved anywhere in the room but it will always be align with roo
 The clock hands are used in the game by solving one of the puzzles by inputting the correct time. The player can grab the clock hands from both sides and can be rotated in any direction. When both the clock hands are at the correct angle it will solve the puzzle.
 
 <div align="center">
-  <img src="Images/ruinblock1.gif" width="45%" />
-  <img src="Images/ruinblock2.gif" width="45%" />
+  <img src="Images/ruinclock1.gif" width="45%" />
+  <img src="Images/ruinclock2.gif" width="45%" />
 </div>
