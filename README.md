@@ -5,7 +5,7 @@ Here you'll find a selection of both team-based and solo projects I've developed
 
 # Projects
 
-## Ruin
+## [Ruin](./Ruin/README.md) ←More info
 
 ![Ruin Screenshot](Images/ruin.jpg "Screenshot from Ruin")
 
