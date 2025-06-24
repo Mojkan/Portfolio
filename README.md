@@ -1,11 +1,16 @@
 # Elvin Hillström Portfolio
 
 Welcome to my portfolio!  
-Here you'll find a selection of both team-based and solo projects I've worked on. While most of my work has been created in Unity, I also have experience working in Unreal Engine 5.
+Here you'll find a selection of both team-based and solo projects I've worked on. I have experience with both Unity and Unreal Engine 5. Below are some of the projects I've worked on.
 
 # Projects
 
 ## [Ruin](./Ruin) ← More info!
+
+**Duration:**  8 weeks  
+**Engine:**    Unity  
+**Genre:**     Exploration, Puzzle  
+**Team:**      3 Programmers, 4 Artists
 
 ![Ruin Screenshot](Images/ruin.jpg "Screenshot from Ruin")
 
@@ -19,14 +24,12 @@ Here you'll find a selection of both team-based and solo projects I've worked on
 
 ---
 
-**Duration:**  8 weeks  
-**Engine:**    Unity  
-**Genre:**     Exploration, Puzzle  
-**Team:**      3 Programmers, 4 Artists
-
----
-
 ## [Arrowhold](./Arrowhold) ← More info!
+
+**Duration:**  6 weeks  
+**Engine:**    Unreal Engine 5  
+**Genre:**     Tower defence, Shooter  
+**Team:**      Solo project
 
 ![Arrowhold Screenshot](Images/arrowhold.jpg "Screenshot Arrowhold")
 
@@ -37,14 +40,12 @@ Here you'll find a selection of both team-based and solo projects I've worked on
 
 ---
 
-**Duration:**  6 weeks  
-**Engine:**    Unreal Engine 5  
-**Genre:**     Tower defence, Shooter  
-**Team:**      Solo project
-
----
-
 ## [Chain Mail](./Chain%20Mail) ← More info!
+
+**Duration:**  7 weeks  
+**Engine:**    Unity </br>
+**Genre:**     Adventure, Action   
+**Team:**      3 Programmers, 3 Artists
 
 ![Chain Mail Screenshot](Images/chainmail.png "Screenshot Chain Mail")
 
@@ -53,9 +54,3 @@ Here you'll find a selection of both team-based and solo projects I've worked on
   <img src="Images/chainmail3.jpg" width="45%" />
 </div>
 
----
-
-**Duration:**  7 weeks  
-**Engine:**    Unity </br>
-**Genre:**     Adventure, Action   
-**Team:**      3 Programmers, 3 Artists
