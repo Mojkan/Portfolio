@@ -31,5 +31,11 @@ There are three different type of enemies in the game. Each have a unique attack
 ---
 
 ## Pushing enemies through windows and into holes
+Reducing the health of the enemies until they die is not the only way to kill them. You have the ability to also push them out of the windows with enough knockback force or push them into holes. The be able to push larger enemies you will first need to trip them before you can attack them.
+
+<div align="center">
+  <img src="Images/chainmailattack3.gif" width="45%" />
+  <img src="Images/chainmailattack4.gif" width="45%" />
+</div>
 
 ---
