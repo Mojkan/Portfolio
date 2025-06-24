@@ -17,8 +17,8 @@ With Arrowhold, the goal was to learn as much as possible about **Unreal Engine*
 To get the arrow's flight path to feel right, I adjusted the drag and weight of the arrow and rotated it to match its velocity vector, which worked well.
 
 <div align="center">
-  <img src="Images/arrowhold1.jpeg" width="45%" />
-  <img src="Images/arrowhold2.jpeg" width="45%" />
+  <img src="Images/arrowhold1.jpg" width="45%" />
+  <img src="Images/arrowhold2.jpg" width="45%" />
 </div>
 
 ## Missile tracking
