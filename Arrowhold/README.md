@@ -22,6 +22,13 @@ To get the arrow's flight path to feel right, I adjusted the drag and weight of 
 </div>
 
 ## Missile tracking
+In the game, players can purchase a strike aircraft that launches guided missiles at a designated target. Once fired, the missiles can track and steer toward the selected target, exploding on impact and generating an AOE explosion.
 
+To make the missile behave a little bit more realistic, each missile begins with limited steering capability. After a short delay the missile gains more speed and it's manoeuvrability increases, allowing it to make bigger adjustments.
+
+<div align="center">
+  <img src="Images/arrowholdmissile1.gif" width="45%" />
+  <img src="Images/arrowholdmissile2.jpg" width="45%" />
+</div>
 
 ## Level creating system
