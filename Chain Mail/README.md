@@ -20,10 +20,16 @@ In Chain Mail when the player throws itself or the bag it can give knockback to 
 
 ---
 
-## Knockback on enemy and player
+## Enemy attacks and weapons
+There are three different type of enemies in the game. Each have a unique attacks and charge up times depending on weapon. The swordsman have a light attack and small hit radius compared to the heavy enemy that have a large hammer with a large hit radius but a long charge up time. The third enemy has bow and arrows and will try to keep a safe distance from you.
+
+<div align="center">
+  <img src="Images/chainmailattack1.gif" width="45%" />
+  <img src="Images/chainmailattack2.gif" width="45%" />
+</div>
 
 ---
 
-## Knockback on enemy and player
+## Pushing enemies through windows and into holes
 
 ---
