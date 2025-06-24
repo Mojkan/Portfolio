@@ -32,3 +32,9 @@ To make the missile behave a little bit more realistic, each missile begins with
 </div>
 
 ## Level creating system
+To be able to quickly create levels in the game I needed a system where I could input what type of balloons and how many per level. I found that the best solution for this was to use data tables and it worked very seamless and as expected for my project.
+
+<div align="center">
+  <img src="Images/arrowholdballoons1.jpg" width="45%" />
+  <img src="Images/arrowholdballoons2.jpg" width="45%" />
+</div>
