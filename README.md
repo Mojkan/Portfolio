@@ -1,7 +1,7 @@
 # Elvin Hillström Portfolio
 
 Welcome to my portfolio!  
-Here you'll find a selection of both team-based and solo projects I've developed. While most of my work has been created in Unity, I also have experience working in Unreal Engine 5.
+Here you'll find a selection of both team-based and solo projects I've worked on. While most of my work has been created in Unity, I also have experience working in Unreal Engine 5.
 
 # Projects
 
