@@ -21,6 +21,8 @@ To get the arrow's flight path to feel right, I adjusted the drag and weight of 
   <img src="Images/arrowhold2.jpg" width="45%" />
 </div>
 
+---
+
 ## Missile tracking
 In the game, players can purchase a strike aircraft that launches guided missiles at a designated target. Once fired, the missiles can track and steer toward the selected target, exploding on impact and generating an AOE explosion.
 
@@ -31,6 +33,8 @@ To make the missile behave a little bit more realistic, each missile begins with
   <img src="Images/arrowholdmissile2.jpg" width="45%" />
 </div>
 
+---
+
 ## Level creating system
 To be able to quickly create levels in the game I needed a system where I could input what type of balloons and how many per level. I found that the best solution for this was to use data tables and it worked very seamless and as expected for my project.
 
@@ -38,3 +42,5 @@ To be able to quickly create levels in the game I needed a system where I could 
   <img src="Images/arrowholdballoons1.png" width="45%" />
   <img src="Images/arrowholdballoons2.jpg" width="45%" />
 </div>
+
+---
