@@ -20,6 +20,9 @@ To get the arrow's flight path to feel right, I adjusted the drag and weight of 
   <img src="Images/arrowhold1.jpg" width="45%" />
   <img src="Images/arrowhold2.jpg" width="45%" />
 </div>
+<div align="center">
+  <img src="Images/arrowholdCode1.png" width="100%" />
+</div>
 
 ---
 
@@ -31,6 +34,9 @@ To make the missile behave a little bit more realistic, each missile begins with
 <div align="center">
   <img src="Images/arrowholdmissile1.gif" width="45%" />
   <img src="Images/arrowholdmissile2.jpg" width="45%" />
+</div>
+<div align="center">
+  <img src="Images/arrowholdCode2.png" width="100%" />
 </div>
 
 ---
