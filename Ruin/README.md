@@ -31,7 +31,7 @@ The camera can also handle tight corners where the camera comes close to the pla
   <img src="Images/ruincamera2.gif" width="45%" />
 </div>
 <div align="center">
-  <img src="Images/CodeImage1.png" width="60%" />
+  <img src="Images/CodeImage1.png" width="100%" />
 </div>
 
 ---
