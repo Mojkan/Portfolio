@@ -30,7 +30,7 @@ The camera can also handle tight corners where the camera comes close to the pla
   <img src="Images/ruincamera1.gif" width="45%" />
   <img src="Images/ruincamera2.gif" width="45%" />
 </div>
-
+  <img src="Images/CodeImage1.png" width="100%" />
 ---
 
 ## The puzzle blocks
