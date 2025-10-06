@@ -36,7 +36,7 @@ When I created the sound system for this project I wanted to ensure it was robus
 
 <div align="center">
 
-  <img src="Images/soundmanager1.png" width="45%" />
+  <img src="Images/soundmanager.png" width="45%" />
 
   <img src="Images/soundmanager2.png" width="45%" />
 
