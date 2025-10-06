@@ -20,8 +20,7 @@ When I created the sound system for this project I wanted to ensure it was robus
 [View the full SoundManager script →](Scripts/SoundManager.cs)
 
 <div align="center">
-  <img src="Images/soundmanager.png" width="60%" />
-  <img src="Images/soundmanager2.png" width="40%" />
+  <img src="Images/soundmanager.png" width="100%" />
 </div>
 
 ---
