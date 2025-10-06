@@ -12,7 +12,7 @@ Here you'll find a selection of both team-based and solo projects I've worked on
 **Genre:**     Exploration, Puzzle  
 **Team:**      3 Programmers, 4 Artists
 
-![Ruin Screenshot](Images/ruin.jpg "Screenshot from Ruin")
+![Ruin](Images/ruin.jpg)
 
 <div align="center">
   <img src="Images/ruin2.jpg" width="45%" />
@@ -24,6 +24,22 @@ Here you'll find a selection of both team-based and solo projects I've worked on
 
 ---
 
+## [Hot Dog Madness - VR](./Hot Dog Madness - VR) ← More info!
+
+**Duration:**  6 weeks  
+**Engine:**    Unity  
+**Genre:**     Cooking simulator VR, Casual, Time Management
+**Team:**      4 Programmers
+
+![Hot Dog Madness - VR](Images/hotdogmadness.png)
+
+<div align="center">
+  <img src="Images/hotdogmadness2.png" width="45%" />
+  <img src="Images/hotdogmadness3.png" width="45%" />
+</div>
+
+---
+
 ## [Arrowhold](./Arrowhold) ← More info!
 
 **Duration:**  6 weeks  
@@ -31,7 +47,7 @@ Here you'll find a selection of both team-based and solo projects I've worked on
 **Genre:**     Tower defence, Shooter  
 **Team:**      Solo project
 
-![Arrowhold Screenshot](Images/arrowhold.jpg "Screenshot Arrowhold")
+![Arrowhold](Images/arrowhold.jpg)
 
 <div align="center">
   <img src="Images/arrowhold2.jpg" width="45%" />
@@ -47,7 +63,7 @@ Here you'll find a selection of both team-based and solo projects I've worked on
 **Genre:**     Adventure, Action   
 **Team:**      3 Programmers, 3 Artists
 
-![Chain Mail Screenshot](Images/chainmail.png "Screenshot Chain Mail")
+![Chain Mail](Images/chainmail.png)
 
 <div align="center">
   <img src="Images/chainmail2.jpg" width="45%" />
