@@ -36,9 +36,9 @@ When I created the sound system for this project I wanted to ensure it was robus
 
 <div align="center">
 
-&nbsp; <img src="Images/soundmanager1.png" width="45%" />
+  <img src="Images/soundmanager1.png" width="45%" />
 
-&nbsp; <img src="Images/soundmanager2.png" width="45%" />
+  <img src="Images/soundmanager2.png" width="45%" />
 
 </div>
 
@@ -65,8 +65,6 @@ When I created the sound system for this project I wanted to ensure it was robus
 
 
 \## Fast and efficient 3D modelling
-
-
 
 
 
