@@ -16,7 +16,7 @@ Here you'll find a selection of both team-based and solo projects I've worked on
 
 <div align="center">
   <img src="Projects/Images/ruin2.jpg" width="45%" />
-  <img src="Images/ruin3.jpg" width="45%" />
+  <img src="Projects/Images/ruin3.jpg" width="45%" />
   <br>
   <img src="Projects/Images/ruin4.jpg" width="45%" />
   <img src="Projects/Images/ruin5.jpg" width="45%" />
@@ -31,11 +31,11 @@ Here you'll find a selection of both team-based and solo projects I've worked on
 **Genre:**     Cooking simulator VR, Time Management </br>
 **Team:**      4 Programmers
 
-![Hot Dog Madness - VR](Projects/Images/hotdogmadness.png)
+![Hot Dog Madness - VR](Projects/Images/hotdogmadness.jpg)
 
 <div align="center">
-  <img src="Projects/Images/hotdogmadness2.png" width="45%" />
-  <img src="Projects/Images/hotdogmadness3.png" width="45%" />
+  <img src="Projects/Images/hotdogmadness2.jpg" width="45%" />
+  <img src="Projects/Images/hotdogmadness3.jpg" width="45%" />
 </div>
 
 ---
