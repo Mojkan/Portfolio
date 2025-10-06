@@ -24,11 +24,11 @@ Here you'll find a selection of both team-based and solo projects I've worked on
 
 ---
 
-## [Hot Dog Madness - VR](./Hot Dog Madness - VR) ← More info!
+## [Hot Dog Madness - VR](./Hot%20Dog%20Madness%20-%20VR) ← More info!
 
 **Duration:**  6 weeks  
 **Engine:**    Unity  
-**Genre:**     Cooking simulator VR, Casual, Time Management
+**Genre:**     Cooking simulator VR, Time Management </br>
 **Team:**      4 Programmers
 
 ![Hot Dog Madness - VR](Images/hotdogmadness.png)
