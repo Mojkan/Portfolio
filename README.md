@@ -5,6 +5,22 @@ Here you'll find a selection of both team-based and solo projects I've worked on
 
 # Projects
 
+## [Hot Dog Madness - VR](./Projects/Hot%20Dog%20Madness%20-%20VR) ← More info!
+
+**Duration:**  6 weeks  
+**Engine:**    Unity  
+**Genre:**     Cooking simulator VR, Time Management </br>
+**Team:**      4 Programmers
+
+![Hot Dog Madness - VR](Projects/Images/hotdogmadness.jpg)
+
+<div align="center">
+  <img src="Projects/Images/hotdogmadness2.jpg" width="45%" />
+  <img src="Projects/Images/hotdogmadness3.jpg" width="45%" />
+</div>
+
+---
+
 ## [Ruin](./Projects/Ruin) ← More info!
 
 **Duration:**  8 weeks  
@@ -20,22 +36,6 @@ Here you'll find a selection of both team-based and solo projects I've worked on
   <br>
   <img src="Projects/Images/ruin4.jpg" width="45%" />
   <img src="Projects/Images/ruin5.jpg" width="45%" />
-</div>
-
----
-
-## [Hot Dog Madness - VR](./Projects/Hot%20Dog%20Madness%20-%20VR) ← More info!
-
-**Duration:**  6 weeks  
-**Engine:**    Unity  
-**Genre:**     Cooking simulator VR, Time Management </br>
-**Team:**      4 Programmers
-
-![Hot Dog Madness - VR](Projects/Images/hotdogmadness.jpg)
-
-<div align="center">
-  <img src="Projects/Images/hotdogmadness2.jpg" width="45%" />
-  <img src="Projects/Images/hotdogmadness3.jpg" width="45%" />
 </div>
 
 ---
