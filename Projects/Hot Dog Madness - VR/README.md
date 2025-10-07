@@ -31,7 +31,7 @@ I fixed this by creating a script that temporarily attaches the hot dog to the b
 
 <div align="center">
   <img src="Images/physicsassistance.png" width="60%" />
-  <img src="../Images/hotdogmadness2.jpg" width="40%" />
+  <img src="../Images/hotdogmadness2.jpg" width="35%" />
 </div>
 
 ---
