@@ -46,5 +46,8 @@ To make it easy to set up all the goals for each level, I created a ScriptableOb
 ---
 
 ## Fast and efficient 3D modelling
+I 3D modelled nearly everyting in the game. We choosed a very low poly with with only solid colors as we didn't have much time for this project. The low poly modelling and solid color textures helped with performance as its very important when developing a VR game. All models are made in blender and almost all 3D models use a single material with a very low resolution texture that provides all the colors, as this saves render calls and can improve performance.
 
-# WORK IN PROGRESS
+<div align="center">
+  <img src="Images/3Dmodels.png" width="90%" />
+</div>
