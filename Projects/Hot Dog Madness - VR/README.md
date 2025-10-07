@@ -30,8 +30,8 @@ Because this game is physics-based, players can sometimes experience issues when
 I fixed this by creating a script that temporarily attaches the hot dog to the bun in a way that feels seamless to the player. The script listens for a rotation event and will temporarily disables physics and also parents the hot dog to the bun. The same logic applies when the player performs a distance grab on the hot dog bun. This script gives the player some assistance with object physics and reducing the risk of dropped items or player frustration.
 
 <div align="center">
-  <img src="Images/physicsassistance.png" width="60%" />
-  <img src="Images/hotdogmadness.jpg" width="35%" />
+  <img src="Images/physicsassistance.png" width="65%" />
+  <img src="Images/hotdogmadness.jpg" width="30%" />
 </div>
 
 ---
