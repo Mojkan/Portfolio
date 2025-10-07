@@ -10,7 +10,7 @@ In Hot Dog Madness, you step into a fast-paced VR kitchen running your very own 
 
 - Implemented physics assistance for Rigidbodies when grabbing hot dogs from a distance or during fast rotational movements.
 
-- Designed an efficient system for managing and loading level-specific settings.
+- Designed a system for managing and loading level-specific settings.
 
 - Created nearly all 3D models for the game using an efficient workflow.
 
@@ -26,8 +26,15 @@ When I created the sound system for this project I wanted to ensure it was robus
 ---
 
 ## Assistance for grabbing specific Rigidbodies
+Because this game is physics-based, players can sometimes experience issues when trying to snap-rotate while holding a hot dog or when grabbing one from a distance.
+I fixed this by creating a script that temporarily attaches the hot dog to the bun in a way that feels seamless to the player. The script listens for a rotation event and will temporarily disables physics and also parents the hot dog to the bun. The same logic applies when the player performs a distance grab on the hot dog bun. This script gives the player some assistance with object physics and reducing the risk of dropped items or player frustration.
 
-# WORK IN PROGRESS
+<div align="center">
+  <img src="Images/physicsassistance.png" width="45%" />
+  <img src="../Images/hotdogmadness2.jpg" width="45%" />
+</div>
+
+---
 
 ## Fast and simple system for setting up level data
 
