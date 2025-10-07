@@ -37,8 +37,13 @@ I fixed this by creating a script that temporarily attaches the hot dog to the b
 ---
 
 ## Fast and simple system for setting up level data
+To make it easy to set up all the goals for each level, I created a ScriptableObject that stores the data for each level. These ScriptableObjects are then used by different systems in the game, keeping the level data centralized and easily accessible.
 
-# WORK IN PROGRESS
+<div align="center">
+  <img src="Images/leveldata.png" width="100%" />
+</div>
+
+---
 
 ## Fast and efficient 3D modelling
 
