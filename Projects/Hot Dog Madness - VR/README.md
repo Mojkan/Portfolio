@@ -2,7 +2,7 @@
 
 ## Game Description
 
-In Hot Dog Madness, you step into a fast-paced VR kitchen running your very own hot dog stand. Grill hot dogs, flip burgers, and pour drinks to satisfy delivery robots across ten levels. Each stage ramps up the challenge, introducing new mechanics and increasing difficulty as you progress. Success requires time management, precision, and strategic thinking to keep the orders flowing.
+In Hot Dog Madness, you step into a fast-paced VR kitchen running your very own hot dog stand. Grill hot dogs, flip burgers, and pour drinks to satisfy delivery robots across ten levels. Each level ramps up the challenge, introducing new mechanics and increasing difficulty as you progress. Success requires time management, precision, and strategic thinking to keep the orders flowing.
 
 ## My main contributions to this project
 
@@ -46,7 +46,7 @@ To make it easy to set up all the goals for each level, I created a ScriptableOb
 ---
 
 ## Fast and efficient 3D modelling
-I 3D modelled nearly everyting in the game. We choosed a very low poly with with only solid colors as we didn't have much time for this project. The low poly modelling and solid color textures helped with performance as its very important when developing a VR game. All models are made in blender and almost all 3D models use a single material with a very low resolution texture that provides all the colors, as this saves render calls and can improve performance.
+I created nearly all of the 3D models in the game. We chose a low-poly art style with solid colors to save time and save performance. All models were made in Blender, and most of them use a single material combined with a low-resolution texture that defines the color palette. This reduces draw calls and helps keep performance high which is very important for a VR game.
 
 <div align="center">
   <img src="Images/3Dmodels.png" width="90%" />
