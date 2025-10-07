@@ -40,7 +40,7 @@ I fixed this by creating a script that temporarily attaches the hot dog to the b
 To make it easy to set up all the goals for each level, I created a ScriptableObject that stores the data for each level. These ScriptableObjects are then used by different systems in the game, keeping the level data centralized and easily accessible.
 
 <div align="center">
-  <img src="Images/leveldata.png" width="80%" />
+  <img src="Images/leveldata1.png" width="80%" />
 </div>
 
 ---
