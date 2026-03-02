@@ -1,13 +1,14 @@
 # Elvin Hillström Portfolio
 
 Welcome to my portfolio!  
-Here you'll find a selection of both team-based and solo projects I've worked on. I have experience with both Unity and Unreal Engine 5. I have also worked with SDL3 and tested creating my own 2D game engine. Below are some of the projects I've worked on.
+Here you'll find a selection of both team-based and solo projects I've worked on. I have experience with both Unity and Unreal Engine 5. I have also worked with SDL3 and created a basic 2D game engine. Below are some of the projects I've worked on.
 
 # Projects
 
 ## [2D Game Engine with SDL3 and C++]() ← More info soon!
 
 **Duration:**  6 weeks
+**Library:**   SDL 3
 **Team:**      Solo project
 
 ![2D Game Engine](Projects/Images/gameengine.png)
