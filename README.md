@@ -7,8 +7,8 @@ Here you'll find a selection of both team-based and solo projects I've worked on
 
 ## [2D Game Engine with SDL3 and C++]() ← More info soon!
 
-**Duration:**  6 weeks
-**Library:**   SDL 3
+**Duration:**  6 weeks 	</br>
+**Library:**   SDL 3 	</br>
 **Team:**      Solo project
 
 ![2D Game Engine](Projects/Images/gameengine.png)
@@ -18,8 +18,6 @@ Here you'll find a selection of both team-based and solo projects I've worked on
 </div>
 
 ---
-
-# Projects
 
 ## [Hot Dog Madness - VR](./Projects/Hot%20Dog%20Madness%20-%20VR) ← More info!
 
