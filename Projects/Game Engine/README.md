@@ -26,11 +26,13 @@ DOWNLOAD THE PROTOTYPE GAME HERE!:
 - Utilities: Render groups, tags, time system, and a custom Vector2D class
 
 ## Engine structure and architecture
-The engine and structure was something that I had to rework many times during this development. In the beginning it feels easy and convenient to place a lot of logic on the engine class, but you soon realise that it becomes spaghetti code. I therefore ended up with this solution, a engine class that owned, controlled and updated all the systems. It was also responsible for creating them and destroying and resetting them. The only class that was now static was the engine class itself. This system made it very easy to track the startup, the update loop and the shutdown of the engine.
+The engine structure was something that I had to rework many times during this development. In the beginning it feels easy and convenient to place a lot of logic inside the engine class, but you soon realise that it becomes very difficult to maintain. I therefore ended up with this solution where the engine class owns, controls and updates all the subsystems. It is also responsible for creating, destroying and resetting them. The only static part of the system is the engine class itself, which provides global access to the subsystems. This system made it much easier to manage and track the startup, the update loop and the shutdown of the engine.
 
-The engine is started by the main.cpp file by creating an instance of the Engine class where you can specify name, resolution, fullscreen and vsync. I wanted to have a proper file for configuring settings for the engine, but ran out of time during the development. The engine starts with creating all the systems in the correct order and when done it begins it first frame by saving all the input from the operating system, then it updates all the game objects and components. When that is done it then renders everything and also update time. When the user then quits it just resets all the system and shuts down.
+The engine is started by the main.cpp file by creating an instance of the Engine class where you can specify window title, resolution, fullscreen and vsync. I originally wanted to implement a dedicated configuration file for engine settings, but I ran out of time during development. 
 
-I have not studied engine architecture before, this was a lot trial and error, research and what felt easy to use. <br/>
+The engine starts with creating all the systems in the correct order. When that is done, it starts its main loop by saving all the input from the operating system, then it updates all the managers for game objects and scenes. When that is done it then renders everything and also updates the time system. When the user quits it resets and shuts down all the subsystems in reverse order.
+
+I have not studied engine architecture before, so much of this was trial and error, research and what felt easy to use. <br/>
 [View the full code →](Scripts/)
 
 <div align="center">
