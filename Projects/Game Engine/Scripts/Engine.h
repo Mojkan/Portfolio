@@ -21,7 +21,6 @@ public:
     void run();
     void shutdown();
 
-    // Accessors to subsystems
     inline static Engine& instance() { return *s_instance; }
 
     Window&             getWindow()             { return *window; }
