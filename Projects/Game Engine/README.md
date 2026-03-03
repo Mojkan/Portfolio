@@ -33,21 +33,28 @@ The engine is started by the main.cpp file by creating an instance of the Engine
 The engine starts with creating all the systems in the correct order. When that is done, it starts its main loop by saving all the input from the operating system, then it updates all the managers for game objects and scenes. When that is done it then renders everything and also updates the time system. When the user quits it resets and shuts down all the subsystems in reverse order.
 
 I have not studied engine architecture before, so much of this was trial and error, research and what felt easy to use. <br/>
-[View the full code →](Scripts/)
+[View the full code for this part here!→](Scripts/)
 
 <div align="center">
-  <img src="Images/Engine1.png" width="50%" />
   <img src="Images/Engine2.png" width="40%" />
+  <img src="Images/Engine1.png" width="50%" />
 </div>
 
 ---
 
 ## Game Objects and components
-TEST
+For this game engine I choose to work with game objects and a component system, alot of it inspired by Unity engine. I chosed it because I had limited amount of time and didn't have enough understanding on how I could implement a ECS at or both. In afterhand choosing a game object component system was difficult enough when developing a game engine for the first time and was a perfect choice.
+
+The 
+
 [View the full code →]()
 
 <div align="center">
-  <img src="" width="100%" />
+  <img src="Gameobject1.png" width="100%" />
+</div>
+<div align="center">
+  <img src="Gameobject2.png" width="50%" />
+  <img src="Gameobject2.png" width="50%" />
 </div>
 
 ---
