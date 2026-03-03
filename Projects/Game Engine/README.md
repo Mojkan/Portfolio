@@ -30,11 +30,11 @@ The engine and structure was something that I had to rework many times during th
 
 The engine is started by the main.cpp file by creating an instance of the Engine class where you can specify name, resolution, fullscreen and vsync. I wanted to have a proper file for configuring settings for the engine, but ran out of time during the development. The engine starts with creating all the systems in the correct order and when done it begins it first frame by saving all the input from the operating system, then it updates all the game objects and components. When that is done it then renders everything and also update time. When the user then quits it just resets all the system and shuts down.
 
-I have not studied engine architecture before, this was a lot trial and error, research and what felt easy to use. 
+I have not studied engine architecture before, this was a lot trial and error, research and what felt easy to use. <br/>
 [View the full code →](Scripts/)
 
 <div align="center">
-  <img src="Images/Engine.png" width="50%" />
+  <img src="Images/Engine1.png" width="50%" />
   <img src="Images/Engine2.png" width="40%" />
 </div>
 
