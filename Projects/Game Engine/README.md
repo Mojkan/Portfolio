@@ -26,11 +26,16 @@ DOWNLOAD THE PROTOTYPE GAME HERE!:
 - Utilities: Render groups, tags, time system, and a custom Vector2D class
 
 ## Engine structure and architecture
-TEST
-[View the full code →]()
+The engine and structure was something that I had to rework many times during this development. In the beginning it feels easy and convenient to place a lot of logic on the engine class, but you soon realise that it becomes spaghetti code. I therefore ended up with this solution, a engine class that owned, controlled and updated all the systems. It was also responsible for creating them and destroying and resetting them. The only class that was now static was the engine class itself. This system made it very easy to track the startup, the update loop and the shutdown of the engine.
+
+The engine is started by the main.cpp file by creating an instance of the Engine class where you can specify name, resolution, fullscreen and vsync. I wanted to have a proper file for configuring settings for the engine, but ran out of time during the development. The engine starts with creating all the systems in the correct order and when done it begins it first frame by saving all the input from the operating system, then it updates all the game objects and components. When that is done it then renders everything and also update time. When the user then quits it just resets all the system and shuts down.
+
+I have not studied engine architecture before, this was a lot trial and error, research and what felt easy to use. 
+[View the full code →](Scripts/)
 
 <div align="center">
-  <img src="" width="100%" />
+  <img src="Images/Engine.png" width="50%" />
+  <img src="Images/Engine2.png" width="40%" />
 </div>
 
 ---
