@@ -7,7 +7,7 @@ This project was around 6-7 weeks, but I had already spent a couple months befor
 
 The game engine turned out better than what I anticipated. It currently supports several fundamental systems of a engine, including game objects, scenes, collision, audio, input, components and more, which I will list below. While developing the engine, I also created a very simple prototype game for testing and development purposes. It is available for download below.
 
-Below, you can read about the engine, which I have divided into different sections: engine structure and architecture, game objects and components, scenes and optimizations.
+Below, you can read about the engine, which I have divided into different sections: engine structure and architecture, game objects and components, scenes and optimization.
 
 [VIEW THE FULL PROJECT FILES HERE!](https://github.com/Mojkan/SDL_Game_Engine/tree/main/SDL_Game)
 
@@ -54,9 +54,6 @@ The Component class serves as the base class for all gameplay scripts. It define
 [View the full code for this part here!](Scripts/Gameobjects/)
 
 <div align="center">
-  <img src="Images/Gameobject1.png" width="30%" />
-</div>
-<div align="center">
   <img src="Images/Gameobject2.png" width="40%" />
   <img src="Images/Gameobject3.png" width="50%" />
 </div>
@@ -79,8 +76,13 @@ If I had more time, I would improve this system by implementing an editor that a
 
 ---
 
-## Optimizations
-TEST
+## Optimization
+Optimization is something I really enjoy exploring. While the engine is far from perfect, I have spent time improving performance in several important systems, including game objects, textures, audio, and timing. I have also focused on ensuring proper memory management and avoiding leaks. C++ and SDL are already very fast even without heavy optimization, but I wanted to test and push the engine further. Below are a few examples of systems where I spent time on optimization for the engine.
+
+The Texture manager plays has a important role in rendering sprites efficiently. When a sprite component requests a texture, the manager first checks an internal cache to see if the texture has already been loaded. If it exists, the cached GPU texture is reused instead of loading it again from disk. If the texture is not already cached, it gets loaded using SDL_image, converted into an SDL_Texture and then stored in GPU memory. The texture is then saved in an unordered map for future reuse. This ensures that each texture is only loaded once and reducing disk I/O and avoiding unnecessary GPU allocations. All cached textures are properly destroyed during cleanup to prevent memory leaks.
+
+To better understand performance, I created a frame timing system using SDL_GetPerformanceCounter to calculate delta time and FPS. I also implemented an FPS limiter that caps the frame rate when VSync is disabled. The limiter calculates the expected frame time and uses precise delays to avoid unnecessary CPU usage. The framerate is controlled by the renderer when vsync is enabled. This system makes it reliable to benchmark changes, limit resource usage and reduce the risk of screen tearing.
+
 [View the full code for this part here!](Scripts/Optimization/)
 
 <div align="center">
