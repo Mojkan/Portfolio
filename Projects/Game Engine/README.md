@@ -33,7 +33,7 @@ The engine is started by the main.cpp file by creating an instance of the Engine
 The engine starts with creating all the systems in the correct order. When that is done, it starts its main loop by saving all the input from the operating system, then it updates all the managers for game objects and scenes. When that is done it then renders everything and also updates the time system. When the user quits it resets and shuts down all the subsystems in reverse order.
 
 I have not studied engine architecture before, so much of this was trial and error, research and what felt easy to use. <br/>
-[View the full code for this part here!→](Scripts/)
+[View the full code for this part here!→](Scripts/Engine/)
 
 <div align="center">
   <img src="Images/Engine2.png" width="40%" />
@@ -43,18 +43,22 @@ I have not studied engine architecture before, so much of this was trial and err
 ---
 
 ## Game Objects and components
-For this game engine I choose to work with game objects and a component system, alot of it inspired by Unity engine. I chosed it because I had limited amount of time and didn't have enough understanding on how I could implement a ECS at or both. In afterhand choosing a game object component system was difficult enough when developing a game engine for the first time and was a perfect choice.
+For this engine, I chose to implement a game object and component system inspired by the Unity engine. I made this decision because I had limited time and did not feel confident enough to design and implement a full ECS system. Building a traditional game object–component system for my first engine was challenging enough and turned out to be the right scope for this project.
 
-The 
+The GameObjectManager is responsible for managing the entire lifecycle of all game objects. Newly created objects are first stored in a temporary container and then added at the beginning of the update cycle. When they are added, they get inserted into the appropriate render group and their start() method is called. Each frame the manager iterates over all active and enabled game objects and calls their update() method. When a game object becomes inactive, the manager ensures it is properly removed from all related systems before being destroyed. This includes removing colliders from the physics system and removing the object from its render group. Only after these references are cleared is the object erased from the main container to prevent dangling references. The manager also provides a convenient helper function such as searching for a game object by tag.
 
-[View the full code →]()
+The GameObject class itself is responsible for managing its components. Each game object has a name, tag, render group, and a collection of components. The object forwards lifecycle calls from game object manager to its components by invoking their start(), update(), draw(), and onCollisionEnter() functions. Only enabled components are executed, allowing them to be toggled at runtime.
+
+The Component class serves as the base class for all gameplay scripts. It defines virtual lifecycle functions that derived classes can override, including start(), update(), draw(), and onCollisionEnter(). Each component also has an enabled state that allows it to be temporarily disabled without being removed from the game object.
+
+[View the full code for this part here!→](Scripts/Gameobjects/)
 
 <div align="center">
-  <img src="Gameobject1.png" width="100%" />
+  <img src="Images/Gameobject1.png" width="100%" />
 </div>
 <div align="center">
-  <img src="Gameobject2.png" width="50%" />
-  <img src="Gameobject2.png" width="50%" />
+  <img src="Images/Gameobject2.png" width="50%" />
+  <img src="Images/Gameobject2.png" width="50%" />
 </div>
 
 ---
