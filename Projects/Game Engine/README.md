@@ -7,7 +7,7 @@ This project was around 6-7 weeks, but I had already spent a couple months befor
 
 The game engine turned out better than what I anticipated. It currently supports several fundamental systems of a engine, including game objects, scenes, collision, audio, input, components and more, which I will list below. While developing the engine, I also created a very simple prototype game for testing and development purposes. It is available for download below.
 
-Below, you can read about the engine, which I have divided into different sections: engine structure and architecture, game objects and components, scenes, optimizations and extras.
+Below, you can read about the engine, which I have divided into different sections: engine structure and architecture, game objects and components, scenes and optimizations.
 
 [VIEW THE FULL PROJECT FILES HERE!](https://github.com/Mojkan/SDL_Game_Engine/tree/main/SDL_Game)
 
@@ -54,10 +54,10 @@ The Component class serves as the base class for all gameplay scripts. It define
 [View the full code for this part here!](Scripts/Gameobjects/)
 
 <div align="center">
-  <img src="Images/Gameobject1.png" width="25%" />
+  <img src="Images/Gameobject1.png" width="30%" />
 </div>
 <div align="center">
-  <img src="Images/Gameobject2.png" width="30%" />
+  <img src="Images/Gameobject2.png" width="40%" />
   <img src="Images/Gameobject3.png" width="50%" />
 </div>
 
@@ -79,12 +79,13 @@ If I had more time, I would improve this system by implementing an editor that a
 
 ---
 
-## Optimizations and extras
+## Optimizations
 TEST
 [View the full code for this part here!](Scripts/Optimization/)
 
 <div align="center">
-  <img src="" width="100%" />
+  <img src="Images/Optimization1.png" width="40%" />
+  <img src="Images/Optimization2.png" width="40%" />
 </div>
 
 ---
