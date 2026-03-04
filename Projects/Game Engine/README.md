@@ -57,19 +57,24 @@ The Component class serves as the base class for all gameplay scripts. It define
   <img src="Images/Gameobject1.png" width="30%" />
 </div>
 <div align="center">
-  <img src="Images/Gameobject2.png" width="45%" />
-  <img src="Images/Gameobject3.png" width="45%" />
+  <img src="Images/Gameobject2.png" width="40%" />
+  <img src="Images/Gameobject3.png" width="50%" />
 </div>
 
 ---
 
 ## Scenes
-TEST
+New scenes inherit from the Scene base class and implement the load() function, where all game objects for that scene are created and configured. Scenes are registered in the SceneManager and stored in a map. When a scene change is requested, a flag is set and the switch happens during the next update cycle to avoid changing scenes during a frame. 
+
+Before loading a new scene, the manager performs a full cleanup by calling clear() on all systems. Each system resets its internal state to ensure there is no leftover data. After cleanup, the new scene’s load() function is executed and the active camera is assigned, ensuring a clean and consistent transition.
+
+If I had more time, I would improve this system by implementing an editor that automatically saves and loads scene data from files. Currently the scenes must be constructed manually in code, which makes the workflow less convenient. But the system is still fully functional even without an editor.
+
 [View the full code for this part here!→](Scripts/Scene/)
 
 <div align="center">
-  <img src="Images/Scene1.png" width="45%" />
-  <img src="Images/Scene2.png" width="45%" />
+  <img src="Images/Scene1.png" width="50%" />
+  <img src="Images/Scene2.png" width="40%" />
 </div>
 
 ---
