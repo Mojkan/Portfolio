@@ -5,7 +5,7 @@ Here you'll find a selection of both team-based and solo projects I've worked on
 
 # Projects
 
-## [2D Game Engine with SDL3 and C++]() ← More info soon!
+## [2D Game Engine with SDL3 and C++](https://github.com/Mojkan/Portfolio/tree/main/Projects/Game%20Engine) ← More info!
 
 **Duration:**  6 weeks 	</br>
 **Library:**   SDL 3 	</br>
