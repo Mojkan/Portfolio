@@ -1,7 +1,7 @@
 # 2D Game Engine with SDL3 and C++
 
 ## About the engine and development
-Making a 2D game engine is what I chose for my final year project while studying game programming. I have always been fascinated by game engines and this was a create opportunity for me to learn much more about them. 
+Making a 2D game engine is what I chose for my final year project while studying game programming. I have always been fascinated by game engines and this was a great opportunity for me to learn much more about them. 
 
 This project was around 6-7 weeks, but I had already spent a couple months beforehand learning C++ and a bit of SDL2 on my own. Because of that, working with SDL3 did not feel unfamiliar. 
 
@@ -19,7 +19,7 @@ Below, you can read about the engine, which I have divided into different sectio
 
 - Support for all resolutions, Widescreen, Fullscreen and Vsync
 
-- Engine components: Transform, UITransform, static and dynamic BoxCollider, Button and Sprite.
+- Engine components: Transform, UITransform, static and dynamic BoxCollider, UI-Button and Sprite.
 
 - Engine managers: AudioManager, PhysicsManager, GameObjectManager, SceneManager, TextureManager, RendererManager, and WindowManager
 
@@ -79,9 +79,9 @@ If I had more time, I would improve this system by implementing an editor that a
 ## Optimization
 Optimization is something I really enjoy exploring. While the engine is far from perfect, I have spent time improving performance in several important systems, including game objects, textures, audio, and timing. I have also focused on ensuring proper memory management and avoiding leaks. C++ and SDL are already very fast even without heavy optimization, but I wanted to test and push the engine further. Below are a few examples of systems where I spent time on optimization for the engine.
 
-The Texture manager plays has a important role in rendering sprites efficiently. When a sprite component requests a texture, the manager first checks an internal cache to see if the texture has already been loaded. If it exists, the cached GPU texture is reused instead of loading it again from disk. If the texture is not already cached, it gets loaded using SDL_image, converted into an SDL_Texture and then stored in GPU memory. The texture is then saved in an unordered map for future reuse. This ensures that each texture is only loaded once and reducing disk I/O and avoiding unnecessary GPU allocations. All cached textures are properly destroyed during cleanup to prevent memory leaks.
+The Texture manager plays has a important role in rendering sprites efficiently. When a sprite component requests a texture, the manager first checks an internal cache to see if the texture has already been loaded. If it exists, the cached GPU texture is reused instead of loading it again from disk. If the texture is not already cached, it gets loaded using SDL_image, converted into an SDL_Texture and then stored in GPU memory. The texture is then saved in an unordered map for future reuse. This ensures that each texture is only loaded once and reducing disk and avoiding unnecessary GPU allocations. All cached textures are properly destroyed during cleanup to prevent memory leaks.
 
-To better understand performance, I created a frame timing system using SDL_GetPerformanceCounter to calculate delta time and FPS. I also implemented an FPS limiter that caps the frame rate when VSync is disabled. The limiter calculates the expected frame time and uses precise delays to avoid unnecessary CPU usage. The framerate is controlled by the renderer when vsync is enabled. This system makes it reliable to benchmark changes, limit resource usage and reduce the risk of screen tearing.
+To better track the performance, I created a frame timing system using SDL_GetPerformanceCounter to calculate delta time and FPS. I also implemented an FPS limiter that caps the frame rate when VSync is disabled. The limiter calculates the expected frame time and uses delays to avoid unnecessary CPU usage. The framerate is controlled by the renderer when vsync is enabled. This system makes it reliable to benchmark changes, limit resource usage and reduce the risk of screen tearing.
 
 [View the full code for this part here!](Scripts/Optimization/)
 
