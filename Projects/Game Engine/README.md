@@ -54,21 +54,22 @@ The Component class serves as the base class for all gameplay scripts. It define
 [View the full code for this part here!→](Scripts/Gameobjects/)
 
 <div align="center">
-  <img src="Images/Gameobject1.png" width="40%" />
+  <img src="Images/Gameobject1.png" width="30%" />
 </div>
 <div align="center">
-  <img src="Images/Gameobject2.png" width="40%" />
-  <img src="Images/Gameobject2.png" width="40%" />
+  <img src="Images/Gameobject2.png" width="45%" />
+  <img src="Images/Gameobject3.png" width="45%" />
 </div>
 
 ---
 
 ## Scenes
 TEST
-[View the full code →]()
+[View the full code for this part here!→](Scripts/Scene/)
 
 <div align="center">
-  <img src="" width="100%" />
+  <img src="Images/Scene1.png" width="45%" />
+  <img src="Images/Scene2.png" width="45%" />
 </div>
 
 ---
