@@ -9,7 +9,7 @@ The game engine turned out better than what I anticipated. It currently supports
 
 Below, you can read about the engine, which I have divided into different sections: engine structure and architecture, game objects and components, scenes, optimizations and extras.
 
-[VIEW THE FULL PROJECT FILES HERE!](https://github.com/Mojkan/SDL_Game_Engine)
+[VIEW THE FULL PROJECT FILES HERE!](https://github.com/Mojkan/SDL_Game_Engine/tree/main/SDL_Game)
 
 [DOWNLOAD THE PROTOTYPE GAME HERE!](https://github.com/Mojkan/SDL_Game_Engine/releases/tag/Game)
 
