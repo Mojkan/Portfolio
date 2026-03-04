@@ -9,9 +9,9 @@ The game engine turned out better than what I anticipated. It currently supports
 
 Below, you can read about the engine, which I have divided into different sections: engine structure and architecture, game objects and components, scenes, optimizations and extras.
 
-VIEW THE FULL PROJECT FILES HERE!
+[VIEW THE FULL PROJECT FILES HERE!](https://github.com/Mojkan/SDL_Game_Engine)
 
-DOWNLOAD THE PROTOTYPE GAME HERE!
+[DOWNLOAD THE PROTOTYPE GAME HERE!](https://github.com/Mojkan/SDL_Game_Engine/releases/tag/Game)
 
 ## Core features
 
@@ -36,8 +36,8 @@ I have not studied engine architecture before, so much of this was trial and err
 [View the full code for this part here!](Scripts/Engine/)
 
 <div align="center">
-  <img src="Images/Engine2.png" width="30%" />
-  <img src="Images/Engine1.png" width="60%" />
+  <img src="Images/Engine2.png" width="40%" />
+  <img src="Images/Engine1.png" width="50%" />
 </div>
 
 ---
@@ -57,8 +57,8 @@ The Component class serves as the base class for all gameplay scripts. It define
   <img src="Images/Gameobject1.png" width="25%" />
 </div>
 <div align="center">
-  <img src="Images/Gameobject2.png" width="40%" />
-  <img src="Images/Gameobject3.png" width="40%" />
+  <img src="Images/Gameobject2.png" width="30%" />
+  <img src="Images/Gameobject3.png" width="50%" />
 </div>
 
 ---
@@ -81,7 +81,7 @@ If I had more time, I would improve this system by implementing an editor that a
 
 ## Optimizations and extras
 TEST
-[View the full code →]()
+[View the full code for this part here!](Scripts/Optimization/)
 
 <div align="center">
   <img src="" width="100%" />
