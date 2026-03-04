@@ -9,9 +9,9 @@ The game engine turned out better than what I anticipated. It currently supports
 
 Below, you can read about the engine, which I have divided into different sections: engine structure and architecture, game objects and components, scenes, optimizations and extras.
 
-VIEW THE FULL PROJECT FILES HERE!: 
+VIEW THE FULL PROJECT FILES HERE!
 
-DOWNLOAD THE PROTOTYPE GAME HERE!: 
+DOWNLOAD THE PROTOTYPE GAME HERE!
 
 ## Core features
 
@@ -33,7 +33,7 @@ The engine is started by the main.cpp file by creating an instance of the Engine
 The engine starts with creating all the systems in the correct order. When that is done, it starts its main loop by saving all the input from the operating system, then it updates all the managers for game objects and scenes. When that is done it then renders everything and also updates the time system. When the user quits it resets and shuts down all the subsystems in reverse order.
 
 I have not studied engine architecture before, so much of this was trial and error, research and what felt easy to use. <br/>
-[View the full code for this part here!→](Scripts/Engine/)
+[View the full code for this part here!](Scripts/Engine/)
 
 <div align="center">
   <img src="Images/Engine2.png" width="40%" />
@@ -51,7 +51,7 @@ The GameObject class itself is responsible for managing its components. Each gam
 
 The Component class serves as the base class for all gameplay scripts. It defines virtual lifecycle functions that derived classes can override, including start(), update(), draw(), and onCollisionEnter(). Each component also has an enabled state that allows it to be temporarily disabled without being removed from the game object.
 
-[View the full code for this part here!→](Scripts/Gameobjects/)
+[View the full code for this part here!](Scripts/Gameobjects/)
 
 <div align="center">
   <img src="Images/Gameobject1.png" width="30%" />
@@ -70,7 +70,7 @@ Before loading a new scene, the manager performs a full cleanup by calling clear
 
 If I had more time, I would improve this system by implementing an editor that automatically saves and loads scene data from files. Currently the scenes must be constructed manually in code, which makes the workflow less convenient. But the system is still fully functional even without an editor.
 
-[View the full code for this part here!→](Scripts/Scene/)
+[View the full code for this part here!](Scripts/Scene/)
 
 <div align="center">
   <img src="Images/Scene1.png" width="50%" />
