@@ -12,11 +12,9 @@ void GameObjectManager::update()
 
 void GameObjectManager::refreshGameObjects()
 {
-	// Clean the collider list
     auto& staticColliders = Engine::instance().getPhysics().getStaticColliders();
     auto& dynamicColliders = Engine::instance().getPhysics().getDynamicColliders();
 
-    // Clear static collider list
     staticColliders.erase(
         std::remove_if(staticColliders.begin(), staticColliders.end(),
             [](Collider* c) {
@@ -24,7 +22,6 @@ void GameObjectManager::refreshGameObjects()
             }),
         staticColliders.end());
 
-    // Clear dynamic collider list
     dynamicColliders.erase(
         std::remove_if(dynamicColliders.begin(), dynamicColliders.end(),
             [](Collider* c) {
@@ -32,10 +29,8 @@ void GameObjectManager::refreshGameObjects()
             }),
         dynamicColliders.end());
 
-	// Clean the render groups
 	for (auto& [_, vec] : Engine::instance().getRenderer().getRenderGroups()) std::erase_if(vec, [](auto* obj) { return !obj->isActive(); });
 
-	// Destroy the inactive gameObjects
     std::erase_if(gameObjects, [](const auto& obj) {
         return !obj->isActive();
         });
@@ -77,7 +72,6 @@ void GameObjectManager::clear()
     newGameObjects.clear();
 }
 
-// Adds a new entity to a group
 GameObject& GameObjectManager::addGameObject(const std::string& name, const Tag tag, const RenderGroups renderGroup)
 {
 	auto gameObject = std::make_unique<GameObject>(*this, name, tag, renderGroup);
@@ -89,7 +83,6 @@ GameObject& GameObjectManager::addGameObject(const std::string& name, const Tag 
 	return *rawPtr;
 }
 
-// Returns the first gameobject with correct tag
 GameObject* GameObjectManager::findGameObjectByTag(const Tag tag)
 {
 	for (auto& gameObject : gameObjects)
