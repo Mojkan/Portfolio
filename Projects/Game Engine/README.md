@@ -36,8 +36,8 @@ I have not studied engine architecture before, so much of this was trial and err
 [View the full code for this part here!](Scripts/Engine/)
 
 <div align="center">
-  <img src="Images/Engine2.png" width="40%" />
-  <img src="Images/Engine1.png" width="50%" />
+  <img src="Images/Engine2.png" width="30%" />
+  <img src="Images/Engine1.png" width="60%" />
 </div>
 
 ---
@@ -54,11 +54,11 @@ The Component class serves as the base class for all gameplay scripts. It define
 [View the full code for this part here!](Scripts/Gameobjects/)
 
 <div align="center">
-  <img src="Images/Gameobject1.png" width="30%" />
+  <img src="Images/Gameobject1.png" width="25%" />
 </div>
 <div align="center">
   <img src="Images/Gameobject2.png" width="40%" />
-  <img src="Images/Gameobject3.png" width="50%" />
+  <img src="Images/Gameobject3.png" width="40%" />
 </div>
 
 ---
